@@ -1,0 +1,15 @@
+﻿<Window x:Class="U3_Scrabble_Jakob.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:U3_Scrabble_Jakob"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBox Name="TextBox" HorizontalAlignment="Left" Height="160" Margin="131,37,0,0" Text="Enter 7 Letters" VerticalAlignment="Top" Width="120" TextWrapping="Wrap"
+            AcceptsReturn="True"/>
+        <Button Content="Enter" HorizontalAlignment="Left" Margin="275,37,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="Button_Click"/>
+
+    </Grid>
+</Window>
